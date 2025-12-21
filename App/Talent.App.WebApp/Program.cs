@@ -16,7 +16,7 @@ namespace Talent.App.WebApp
         {
             BuildWebHost(args).Run();
         }
-        //amila
+        //amila 1
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
