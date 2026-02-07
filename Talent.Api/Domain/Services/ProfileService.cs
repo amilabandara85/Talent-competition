@@ -104,6 +104,58 @@ namespace Talent.Api.Domain.Services
             return result;
         }
 
+        //public async Task<TalentProfileViewModel> GetTalentProfile(string Id)
+        //{
+        //    var user = await _userRepository.GetByIdAsync(Id);
+
+        //    if (user != null)
+        //    {
+        //        var videoUrl = string.IsNullOrWhiteSpace(user.VideoName)
+        //                       ? ""
+        //                       : await _fileService.GetFileURL(user.VideoName, FileType.UserVideo);
+
+        //        var result = new TalentProfileViewModel
+        //        {
+        //            Id = user.Id,
+        //            FirstName = user.FirstName,
+        //            MiddleName = user.MiddleName,
+        //            LastName = user.LastName,
+        //            Gender = user.Gender,
+        //            Email = user.Email,
+        //            Phone = user.Phone,
+        //            MobilePhone = user.MobilePhone,
+        //            IsMobilePhoneVerified = user.IsMobilePhoneVerified,
+        //            Summary = user.Summary,
+        //            Description = user.Description,
+        //            Nationality = user.Nationality ?? "",
+        //            // FIX: Address must be an object, not null. PostCode must be an int (0)
+        //            Address = user.Address ?? new Address { City = "", Country = "", PostCode = 0 },
+        //            VisaStatus = user.VisaStatus,
+        //            VisaExpiryDate = user.VisaExpiryDate,
+        //            ProfilePhoto = user.ProfilePhoto,
+        //            ProfilePhotoUrl = user.ProfilePhotoUrl,
+        //            VideoName = user.VideoName,
+        //            VideoUrl = videoUrl,
+        //            Certifications = user.Certifications ?? new List<UserCertification>(),
+        //            Experience = user.Experience ?? new List<UserExperience>(),
+        //            Education = user.Education ?? new List<UserEducation>(),
+        //            //Skills = user.Skills != null
+        //            //         ? user.Skills.Select(x => ViewModelFromSkill(x)).ToList()
+        //            //         : new List<AddSkillViewModel>(),
+        //            //// FIX: Uncomment this section to stop the TalentStatus crash
+        //            //Languages = user.Languages != null ? user.Languages.Select(x => new AddLanguageViewModel
+        //            //{
+        //            //    Id = x.Id,
+        //            //    Name = x.Language,
+        //            //    Level = x.LanguageLevel
+        //            //}).ToList() : new List<AddLanguageViewModel>()
+        //        };
+
+        //        return result;
+        //    }
+        //    return null;
+        //}
+
         public async Task<TalentSnapshotMobileViewModel> GetTalentSnapshot(string userId)
         {
             var user = await _userRepository.GetByIdAsync(userId);

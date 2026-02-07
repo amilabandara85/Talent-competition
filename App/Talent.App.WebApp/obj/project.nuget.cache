@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "048Ae2lrJ5k=",
+  "dgSpecHash": "DYDEwnbAMkY=",
   "success": true,
-  "projectFilePath": "E:\\MVP studio\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+  "projectFilePath": "D:\\SD\\MVP studio\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\madus\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\madus\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

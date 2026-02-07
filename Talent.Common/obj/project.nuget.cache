@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cE2w6g5eYqc=",
+  "dgSpecHash": "jrpqfn9zAnI=",
   "success": true,
-  "projectFilePath": "E:\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+  "projectFilePath": "D:\\SD\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\madus\\.nuget\\packages\\awssdk.core\\3.7.400.40\\awssdk.core.3.7.400.40.nupkg.sha512",
     "C:\\Users\\madus\\.nuget\\packages\\awssdk.s3\\3.7.405.4\\awssdk.s3.3.7.405.4.nupkg.sha512",

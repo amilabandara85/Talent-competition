@@ -44,7 +44,8 @@ namespace Talent.Services.Profile
                 options.AddPolicy("AllowWebAppAccess", builder =>
                 {
                     builder
-                        .WithOrigins("http://localhost:61772","http://localhost:60998") // Specify your allowed origins here
+                        //.WithOrigins("http://localhost:61772","http://localhost:60998") // Specify your allowed origins here
+                        .WithOrigins("http://localhost:61771") // Matches your frontend port
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials();  

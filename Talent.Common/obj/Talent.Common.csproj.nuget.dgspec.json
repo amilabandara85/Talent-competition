@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj": {}
+    "D:\\SD\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj": {}
   },
   "projects": {
-    "E:\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+    "D:\\SD\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+        "projectUniqueName": "D:\\SD\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj",
         "projectName": "Talent.Common",
-        "projectPath": "E:\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+        "projectPath": "D:\\SD\\MVP studio\\talent-competition\\Talent.Common\\Talent.Common.csproj",
         "packagesPath": "C:\\Users\\madus\\.nuget\\packages\\",
-        "outputPath": "E:\\MVP studio\\talent-competition\\Talent.Common\\obj\\",
+        "outputPath": "D:\\SD\\MVP studio\\talent-competition\\Talent.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,7 +115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -186,7 +186,7 @@ export default class EmployeeProfile extends React.Component {
                                 <form className="ui form">
                                     <div className="ui grid">
                                         <FormItemWrapper
-                                            title='Primary Contact Details'
+                                            title='Primary Contact Details..'
                                             tooltip='Enter your primary contact details'
                                         >
                                             <IndividualDetailSection
@@ -219,7 +219,7 @@ export default class EmployeeProfile extends React.Component {
                                         </FormItemWrapper>
                                         <div className="sixteen wide column">
                                             <div>
-                                                <input type="button" className="ui button right floated" onClick={() => window.history.go(-1)} value="Cancel"></input>
+                                                <input type="button" className="ui button right floated" onClick={() => window.history.go(-1)} value="Cancel.. check"></input>
                                                 <input type="button" className="ui teal button right floated" onClick={this.saveData} value="Save"></input>
                                             </div>
                                         </div >
