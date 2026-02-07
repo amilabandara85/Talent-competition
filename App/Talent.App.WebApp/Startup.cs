@@ -12,6 +12,8 @@ namespace Talent.App.WebApp
 {
     public class Startup
     {
+
+        //test
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
